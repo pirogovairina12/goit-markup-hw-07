@@ -28,9 +28,9 @@
                 <img src="./images/logo.svg" alt="Логотип компанії ">
             </a>
             <ul class="header-list list ">
-                <li class="header-item "><a class="header-link link " href="index.html">Studio</a>
+                <li class="header-item current"><a class="header-link link " href="index.html">Studio</a>
                 </li>
-                <li class="header-item current"><a class="header-link link " href="portfolio.html">Portfolio</a>
+                <li class="header-item "><a class="header-link link " href="portfolio.html">Portfolio</a>
                 </li>
                 <li class="header-item "><a class="header-link link " href=" ">Contacts</a>
                 </li>
@@ -42,8 +42,71 @@
             <li class=" header-nav-tel "><a class="header-tel link " href=" tel:+110001111111 ">+11 (000) 111-11-11</a>
             </li>
         </ul>
+
+        <button type="button" class="mobile-menu-open-btn js-open-menu" data-menu-open="">
+            <svg class="mobile-menu-icon" width="32px" height="22px">
+                <use href="./images/charm_menu-hamburger.svg"></use>
+            </svg>
+        </button>
     </div>
 </header>
+<div class="mobile-menu js-menu-container">
+    <button type="button" class="modal-btn-close js-close-menu" data-modal-close="">
+        <svg class="modal-close-svg" width="8px" height="8px">
+            <use class="modal-close-use" href="./images/close-modal.svg#icon-close-black-modal"></use>
+        </svg>
+    </button>
+    <ul class="mobile-header-list list ">
+        <li class="mobile-header-item"><a class="mobile-header-link link " href="index.html">Studio</a>
+        </li>
+        <li class="mobile-header-item "><a class="mobile-header-link link " href="portfolio.html">Portfolio</a>
+        </li>
+        <li class="mobile-header-item "><a class="mobile-header-link link mobile-header-link-contact" href=" ">Contacts</a>
+        </li>
+    </ul>
+    <div class="mobile-bottom">
+        <ul class="mobile-header-nav link list ">
+            <li class=" mobile-header-nav-tel "><a class="mobile-header-tel link " href=" tel:+110001111111 ">+11 (000)
+                111-11-11</a>
+            </li>
+            <li class="mobile-header-nav-email "><a class="mobile-header-email link " href="mailto:info@devstudio.com ">info@devstudio.com</a>
+            </li>
+        </ul>
+        <ul class="mobile-social-list list">
+            <li class="mobile-social-item">
+                <a href="" class="mobile-social-link link">
+                    <svg class="mobile-social-icon" width="24px" height="24px">
+                        <use href="./images/icon-footer.svg#icon-instagram-footer"></use>
+                    </svg>
+                </a>
+            </li>
+            <li class="mobile-social-item">
+                <a href="" class="mobile-social-link link">
+                    <svg class="mobile-social-icon" width="24px" height="24px">
+                        <use href="./images/icon-footer.svg#icon-twitter-footer"></use>
+                    </svg>
+                </a>
+            </li>
+            <li class="mobile-social-item">
+                <a href="" class="mobile-social-link link">
+                    <svg class="mobile-social-icon" width="24px" height="24px">
+                        <use href="./images/icon-footer.svg#icon-facebook-footer"></use>
+                    </svg>
+                </a>
+            </li>
+            <li class="mobile-social-item">
+                <a href="" class="mobile-social-link link">
+                    <svg class="mobile-social-icon" width="24px" height="24px">
+                        <use href="./images/icon-footer.svg#icon-linkedin-footer"></use>
+                    </svg>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+
+
+
 <main class="main ">
     <section class="portfolio ">
         <h1 class="visually-hidden">Portfolio</h1>
