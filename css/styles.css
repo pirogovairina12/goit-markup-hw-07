@@ -1020,13 +1020,7 @@ svg.modal-icon-svg {
 }
 
 
-/*@media screen and (min-width: 768px) and (max-width: 1199px){*/
-/*    .header-container.container {*/
-/*        display: flex;*/
-/*        align-items: center;*/
-/*        justify-content: space-between;*/
-/*    }*/
-/*}*/
+
 
 :root {
     --color-primary: #434455;
@@ -1127,6 +1121,9 @@ svg.modal-icon-svg {
         flex-wrap: wrap;
         justify-content: flex-start;
     }
+    .portfolio-list.list {
+        justify-content: center;
+    }
 }
 
 @media screen and (max-width: 480px) {
@@ -1193,6 +1190,9 @@ svg.modal-icon-svg {
         flex-wrap: wrap;
         justify-content: flex-start;
     }
+    .portfolio-list.list {
+        justify-content: center;
+    }
 }
 
 
@@ -1254,7 +1254,7 @@ svg.modal-icon-svg {
         text-align: left;
     }
     button.footer-subscribe-btn {
-        margin: 0px 0px 0px 16px;
+        margin: 0 0 0 16px;
     }
     ul.portfolio-list-buttons.list {
         display: flex;
@@ -1263,6 +1263,9 @@ svg.modal-icon-svg {
         flex-wrap: wrap;
         justify-content: center;
     }
+    /*ul.portfolio-list.list {*/
+    /*    justify-content: flex-start;*/
+    /*}*/
 }
 
 
@@ -1325,7 +1328,9 @@ svg.modal-icon-svg {
         line-height: 1.1;
     }
 
-
+    /*ul.portfolio-list.list {*/
+    /*    justify-content: flex-start;*/
+    /*}*/
     .container.header-container {
         padding: 20px 16px;
     }
