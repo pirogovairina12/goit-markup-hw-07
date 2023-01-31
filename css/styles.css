@@ -1094,10 +1094,10 @@ svg.modal-icon-svg {
     .footer-description {
         margin: auto;
     }
-    .footer-social {
-        margin: auto;
-        text-align: center;
-    }
+    /*.footer-social {*/
+    /*    margin: auto;*/
+    /*    text-align: center;*/
+    /*}*/
     .footer-subscribe-wrapper {
         display: flex;
         flex-direction: column;
@@ -1170,10 +1170,10 @@ svg.modal-icon-svg {
     .footer-description {
         margin: auto;
     }
-    .footer-social {
-        margin: auto;
-        text-align: center;
-    }
+    /*.footer-social {*/
+    /*    margin: auto;*/
+    /*    text-align: center;*/
+    /*}*/
     .footer-subscribe-wrapper {
         display: flex;
         flex-direction: column;
@@ -1258,10 +1258,10 @@ svg.modal-icon-svg {
     /*    margin-left: 0;*/
     /*    text-align: left;*/
     /*}*/
-    .footer-social {
-        margin-left: auto;
-        text-align: left;
-    }
+    /*.footer-social {*/
+    /*    margin-left: auto;*/
+    /*    text-align: left;*/
+    /*}*/
     button.footer-subscribe-btn {
         margin: 0 0 0 16px;
     }
