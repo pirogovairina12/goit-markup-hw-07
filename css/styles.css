@@ -859,6 +859,7 @@ li.portfolio-item:hover {
     width: 264px;
     padding: 8px 16px;
     color: #FFFFFF;
+    outline: none;
 }
 
 .footer-subscribe-wrapper {
@@ -1039,7 +1040,6 @@ svg.modal-icon-svg {
 
 
 .container {
-    width: 100%;
     padding-left: 15px;
     padding-right: 15px;
 }
@@ -1055,7 +1055,7 @@ svg.modal-icon-svg {
     h1.header-title {
         font-size: 36px;
         line-height: 40px;
-        width: 318px;
+        width: 319px;
     }
 
     .project-skill {
@@ -1129,14 +1129,19 @@ svg.modal-icon-svg {
 @media screen and (max-width: 480px) {
     h1.header-title {
         font-size: 36px;
-        line-height: 40px;
-        width: 318px;
+        line-height: 1.11;
+        font-weight: 700;
+        width: 319px;
     }
-
     .skill-icon-bg {
         display: none;
     }
-
+    .hero-skill {
+        padding: 96px 0;
+    }
+    .customers-list {
+        gap: 72px 16px;
+    }
     .project-skill > li {
         width: calc((100% - 0px) / 1);
     }
@@ -1148,7 +1153,7 @@ svg.modal-icon-svg {
         gap: 72px;
     }
     .customers-item {
-        width: calc((100% - 36px) / 2);
+        width: calc((100% - 32px) / 2);
         height: 88px;
     }
     .footer-container {
@@ -1193,6 +1198,9 @@ svg.modal-icon-svg {
     .portfolio-list.list {
         justify-content: center;
     }
+    .hero {
+        padding: 112px 0;
+    }
 }
 
 
@@ -1204,7 +1212,7 @@ svg.modal-icon-svg {
     h1.header-title {
         font-size: 56px;
         line-height: 60px;
-        width: 494px;
+        width: 496px;
     }
 
     .project-skill > li {
@@ -1305,9 +1313,9 @@ svg.modal-icon-svg {
     ul.header-nav.link.list {
         display: block;
     }
-    /*.project-skill {*/
-    /*    text-align: left;*/
-    /*}*/
+    .header-nav-email {
+        margin: 0;
+    }
 
 }
 
@@ -1347,7 +1355,7 @@ svg.modal-icon-svg {
     }
 
     .customers-item {
-        width: calc((100% - 36px) / 2);
+        width: calc((100% - 32px) / 2);
         height: 88px;
     }
     /*ul.portfolio-list-buttons.list {*/
@@ -1378,7 +1386,6 @@ svg.modal-icon-svg {
 
     }
 
-
     .mobile-menu-open-btn {
         width: 32px;
         height: 22px;
@@ -1386,6 +1393,8 @@ svg.modal-icon-svg {
         background-color: transparent;
         display: block;
         cursor: pointer;
+        right: 22px;
+        position: absolute;
     }
 
 
@@ -1627,6 +1636,7 @@ svg.modal-icon-svg {
         display: flex;
         align-items: center;
         justify-content: space-between;
+        position: relative;
     }
     .li-text-skill {
         font-weight: 500;
@@ -1702,7 +1712,7 @@ svg.modal-icon-svg {
     line-height: 40px;
     text-transform: capitalize;
     color: var(--btn-color);
-    padding-bottom: 40px;
+    margin-bottom: 40px;
 }
 
 .mobile-header-tel {
@@ -1711,13 +1721,14 @@ svg.modal-icon-svg {
 
 .mobile-header-email {
     color: var(--hero-text-color);
+    font-size: 20px;
 }
 
 .mobile-social-list {
     display: flex;
     gap: 56px;
     justify-content: space-around;
-    padding: 48px 0 0 0;
+    margin:  48px 0 0 0;
 }
 
 .mobile-social-item {
@@ -1745,6 +1756,6 @@ svg.modal-icon-svg {
     transform: translateX(0);
 }
 
-.mobile-header-link-contact {
+.current-mobile {
     color: var(--btn-hover-color);
 }
