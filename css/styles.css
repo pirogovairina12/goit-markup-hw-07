@@ -1213,7 +1213,9 @@ svg.modal-icon-svg {
     .container {
         width: 766px;
     }
-
+    .customers-list {
+        gap: 72px 16px;
+    }
     h1.header-title {
         font-size: 56px;
         line-height: 60px;
