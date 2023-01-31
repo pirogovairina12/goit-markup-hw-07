@@ -1104,10 +1104,10 @@ svg.modal-icon-svg {
         align-items: center;
         /*gap: 16px;*/
     }
-    .footer-subscribe {
-        margin: auto;
-        text-align: center;
-    }
+    /*.footer-subscribe {*/
+    /*    margin: auto;*/
+    /*    text-align: center;*/
+    /*}*/
     input.footer-subscribe-input {
         width: 396px;
     }
@@ -1178,10 +1178,10 @@ svg.modal-icon-svg {
         flex-direction: column;
         align-items: center;
     }
-    .footer-subscribe {
-        margin: auto;
-        text-align: center;
-    }
+    /*.footer-subscribe {*/
+    /*    margin: auto;*/
+    /*    text-align: center;*/
+    /*}*/
     input.footer-subscribe-input {
         width: 396px;
     }
@@ -1253,10 +1253,10 @@ svg.modal-icon-svg {
         display: flex;
         flex-direction: row;
     }
-    .footer-subscribe {
-        margin-left: 0;
-        text-align: left;
-    }
+    /*.footer-subscribe {*/
+    /*    margin-left: 0;*/
+    /*    text-align: left;*/
+    /*}*/
     .footer-social {
         margin-left: auto;
         text-align: left;
