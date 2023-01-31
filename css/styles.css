@@ -82,7 +82,7 @@ button.header-btn {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--header-bg-color);
-    /*transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);*/
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-link:hover,
@@ -512,7 +512,7 @@ h3.our-team-name {
 }
 
 button.main-btn {
-    padding: 8px 16px;
+    padding: 12px 24px;
 }
 
 ul.portfolio-list-buttons.list {
@@ -1133,6 +1133,7 @@ svg.modal-icon-svg {
         font-weight: 700;
         width: 319px;
     }
+
     .skill-icon-bg {
         display: none;
     }
@@ -1274,6 +1275,7 @@ svg.modal-icon-svg {
     /*ul.portfolio-list.list {*/
     /*    justify-content: flex-start;*/
     /*}*/
+
 }
 
 
@@ -1328,6 +1330,12 @@ svg.modal-icon-svg {
 
     ul.header-nav.link.list {
         display: none;
+    }
+    .customers-list {
+        display: flex;
+        gap: 72px 24px;
+        justify-content: center;
+        flex-wrap: wrap;
     }
 
     .li-title-skill {
@@ -1652,7 +1660,7 @@ svg.modal-icon-svg {
     }
     .customers-list {
         display: flex;
-        gap: 24px;
+        gap: 72px 24px;
         justify-content: center;
         flex-wrap: wrap;
     }
