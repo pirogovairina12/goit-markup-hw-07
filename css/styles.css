@@ -603,7 +603,7 @@ section.portfolio {
 }
 
 .footer-subscribe {
-    margin-left: auto;
+    /*margin-left: auto;*/
 }
 
 .footer-social-list {
@@ -1245,7 +1245,7 @@ svg.modal-icon-svg {
         display: flex;
         flex-wrap: wrap;
         gap: 72px 24px;
-        justify-content: space-between;
+        /*justify-content: space-between;*/
     }
     .footer-description {
         margin: 0;
