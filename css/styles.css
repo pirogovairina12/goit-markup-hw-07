@@ -1192,7 +1192,7 @@ svg.modal-icon-svg {
         padding: 0 15px;
     }
     .container-mobile{
-        width: 768px;
+        width: 552px;
         padding: 0 15px;
     }
     .customers-list {
@@ -1524,9 +1524,9 @@ svg.modal-icon-svg {
     .mobile-menu-open-btn {
         display: none;
     }
-    .container.container-mobile {
-        width: 552px;
-    }
+    /*.container.container-mobile {*/
+    /*    width: 552px;*/
+    /*}*/
 }
 
 .menu-list {
