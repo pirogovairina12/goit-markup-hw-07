@@ -1111,7 +1111,7 @@ svg.modal-icon-svg {
         width: 319px;
     }
     .container.container-mobile {
-        width: 396px;
+        width: 480px;
     }
     button.main-btn {
         padding: 8px 16px;
@@ -1331,10 +1331,10 @@ svg.modal-icon-svg {
     }
 
 
-
-    .container.container-mobile {
-        width: 552px;
-    }
+    
+    /*.container.container-mobile {*/
+    /*    width: 552px;*/
+    /*}*/
 
 
 
