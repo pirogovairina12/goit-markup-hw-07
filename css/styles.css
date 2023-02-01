@@ -1017,14 +1017,18 @@ svg.modal-icon-svg {
 .container {
     padding-left: 15px;
     padding-right: 15px;
+    margin: auto;
 }
 
 
 @media screen and (min-width: 480px) {
     .container {
         width: 480px;
-        margin-left: auto;
-        margin-right: auto;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .container.container-mobile {
+        width: 396px;
     }
     section.portfolio {
         padding: 48px 0;
@@ -1524,9 +1528,7 @@ svg.modal-icon-svg {
     .mobile-menu-open-btn {
         display: none;
     }
-    /*.container.container-mobile {*/
-    /*    width: 552px;*/
-    /*}*/
+
 }
 
 .menu-list {
