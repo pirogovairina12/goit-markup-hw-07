@@ -603,7 +603,7 @@ section.portfolio {
 }
 
 .footer-subscribe {
-    margin-left: auto;
+    /*margin-left: auto;*/
 }
 
 .footer-social-list {
@@ -1212,6 +1212,10 @@ svg.modal-icon-svg {
 @media screen and (min-width: 768px) {
     .container {
         width: 766px;
+    }
+    .container-mobile{
+        width: 552px;
+        padding: 0;
     }
     .customers-list {
         gap: 72px 16px;
