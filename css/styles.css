@@ -1026,7 +1026,9 @@ svg.modal-icon-svg {
         margin-left: auto;
         margin-right: auto;
     }
-
+    section.portfolio {
+        padding: 48px 0;
+    }
     h1.header-title {
         font-size: 36px;
         line-height: 40px;
@@ -1041,7 +1043,9 @@ svg.modal-icon-svg {
     .skill-icon-bg {
         display: none;
     }
-
+    /*button.main-btn {*/
+    /*    padding: 8px 16px;*/
+    /*}*/
     .li-title-skill {
         font-weight: 700;
         font-size: 36px;
@@ -1050,7 +1054,7 @@ svg.modal-icon-svg {
 
     .project-skill > li {
         width: calc((100% - 0px) / 1);
-        padding: 0 0 72px 0;
+        margin: 0 0 72px 0;
     }
     .customers-item {
         width: calc((100% - 36px) / 2);
@@ -1102,7 +1106,9 @@ svg.modal-icon-svg {
         font-weight: 700;
         width: 319px;
     }
-
+    button.main-btn {
+        padding: 8px 16px;
+    }
     .skill-icon-bg {
         display: none;
     }
@@ -1110,7 +1116,15 @@ svg.modal-icon-svg {
         padding: 96px 0;
     }
 
-
+    .footer-social {
+        text-align: center;
+    }
+    .footer-subscribe {
+        text-align: center;
+    }
+    section.portfolio {
+        padding: 48px 0;
+    }
     .customers-list {
         gap: 72px 16px;
         display: flex;
@@ -1174,11 +1188,12 @@ svg.modal-icon-svg {
 
 @media screen and (min-width: 768px) {
     .container {
-        width: 766px;
+        width: 768px;
+        padding: 0 15px;
     }
     .container-mobile{
-        width: 552px;
-        padding: 0;
+        width: 768px;
+        padding: 0 15px;
     }
     .customers-list {
         gap: 72px 16px;
@@ -1188,11 +1203,21 @@ svg.modal-icon-svg {
         line-height: 60px;
         width: 496px;
     }
-
+    section.portfolio {
+        padding: 64px 0;
+    }
+    .hero-skill {
+        padding: 96px 0 96px 0;
+    }
+    .our-team-section {
+        padding: 96px 0 128px 0;
+    }
     .project-skill > li {
         width: calc((100% - 48px) / 2);
     }
-
+    .customers {
+        padding: 96px 0 96px 0;
+    }
     .project-skill {
         display: flex;
         flex-wrap: wrap;
@@ -1207,6 +1232,7 @@ svg.modal-icon-svg {
         display: flex;
         flex-wrap: wrap;
         gap: 72px 24px;
+        justify-content: flex-start;
     }
     .footer-description {
         margin: 0;
@@ -1238,9 +1264,15 @@ svg.modal-icon-svg {
 
 @media screen and (min-width: 1200px) {
     .container {
-        width: 1158px;
+        width: 1200px;
+        padding: 0 15px;
     }
-
+    .footer-social {
+        text-align: left;
+    }
+    .footer-subscribe {
+        text-align: left;
+    }
     h1.header-title {
         font-size: 56px;
         line-height: 60px;
@@ -1274,25 +1306,45 @@ svg.modal-icon-svg {
     .header-nav-email {
         margin: 0;
     }
-
+    /*.our-team-section {*/
+    /*    padding: 120px 0 120px 0;*/
+    /*}*/
 }
 
 
 @media screen and (max-width: 767px) {
-
+    /*button.main-btn {*/
+    /*    padding: 12px 24px;*/
+    /*}*/
     ul.header-list.list {
         display: none;
     }
+    .hero-skill {
+        padding: 96px 0 96px 0;
+    }
+
+
+
+    .container.container-mobile {
+        width: 552px;
+    }
+
+
 
     ul.header-nav.link.list {
         display: none;
+    }
+    .customers {
+        padding: 96px 0 96px 0;
     }
     .customers-list {
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
     }
-
+    .our-team-section {
+        padding: 96px 0 128px 0;
+    }
     .li-title-skill {
         font-weight: 700;
         font-size: 36px;
@@ -1472,7 +1524,9 @@ svg.modal-icon-svg {
     .mobile-menu-open-btn {
         display: none;
     }
-
+    .container.container-mobile {
+        width: 552px;
+    }
 }
 
 .menu-list {
@@ -1514,7 +1568,12 @@ svg.modal-icon-svg {
         margin-right: 76px;
     }
 
-
+    .hero-skill {
+        padding: 120px 0 120px 0;
+    }
+    .customers {
+        padding: 120px 0 130px 0;
+    }
     .page-nav {
         margin-right: 332px;
         display: flex;
@@ -1547,7 +1606,9 @@ svg.modal-icon-svg {
 
 @media screen and (min-width: 768px) {
 
-
+    /*button.main-btn {*/
+    /*    padding: 12px 24px;*/
+    /*}*/
     .modal-button {
         margin-top: 40px;
     }
@@ -1557,10 +1618,18 @@ svg.modal-icon-svg {
 
 @media screen and (min-width: 1200px) {
 
-
+    .our-team-section {
+        padding: 120px 0 120px 0;
+    }
     .modal-button {
         margin-top: 78px;
     }
+    section.portfolio {
+        padding: 96px 0 120px 0;
+    }
+    /*button.main-btn {*/
+    /*    padding: 12px 24px;*/
+    /*}*/
 }
 
 /* +++++++/HERO-DESKTOP+++++  */
@@ -1573,6 +1642,7 @@ svg.modal-icon-svg {
         justify-content: space-between;
         position: relative;
     }
+
     .li-text-skill {
         font-weight: 500;
     }
@@ -1591,9 +1661,8 @@ svg.modal-icon-svg {
         justify-content: center;
         flex-wrap: wrap;
     }
-    /*.customers-item {*/
-    /*    width: calc((100% - 120px) / 3);*/
-    /*    height: 88px;*/
+    /*button.main-btn {*/
+    /*    padding: 12px 24px;*/
     /*}*/
 }
 
