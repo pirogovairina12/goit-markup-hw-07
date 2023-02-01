@@ -1027,9 +1027,7 @@ svg.modal-icon-svg {
         padding-left: 15px;
         padding-right: 15px;
     }
-    .container.container-mobile {
-        width: 396px;
-    }
+
     section.portfolio {
         padding: 48px 0;
     }
@@ -1109,6 +1107,9 @@ svg.modal-icon-svg {
         line-height: 1.11;
         font-weight: 700;
         width: 319px;
+    }
+    .container.container-mobile {
+        width: 396px;
     }
     button.main-btn {
         padding: 8px 16px;
