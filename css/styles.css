@@ -1332,9 +1332,9 @@ svg.modal-icon-svg {
     h3.li-title-skill {
         text-align: left;
     }
-    ul.our-team {
-        width: calc((100% - 24px) / 2);
-    }
+    /*ul.our-team {*/
+    /*    width: calc((100% - 24px) / 2);*/
+    /*}*/
 }
 
 
