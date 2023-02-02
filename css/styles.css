@@ -1030,7 +1030,7 @@ svg.modal-icon-svg {
 
 @media screen and (min-width: 480px) {
     .container {
-        /*width: 480px;*/
+        /*max-width: 480px;*/
         padding-left: 15px;
         padding-right: 15px;
     }
@@ -1343,12 +1343,15 @@ svg.modal-icon-svg {
     ul.header-list.list {
         display: none;
     }
-    /*.our-team-section > .container-mobile {*/
-    /*    width: 552px;*/
-    /*}*/
-    /*ul.our-team {*/
-    /*    width: calc((100% - 24px) / 2);*/
-    /*}*/
+    .our-team-section > .container-mobile {
+        width:290px;
+    }
+    .customers > .container-mobile {
+        width: 396px;
+    }
+    ul.our-team {
+        width: calc((100% - 0px) / 1);
+    }
     .hero {
         padding: 112px 0 108px 0;
     }
