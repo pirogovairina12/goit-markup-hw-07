@@ -1374,9 +1374,9 @@ svg.modal-icon-svg {
     ul.header-list.list {
         display: none;
     }
-    /*h3.li-title-skill {*/
-    /*    text-align: left;*/
-    /*}*/
+    .our-team-section >.container-mobile {
+        width: 290px;
+    }
     .hero {
         padding: 112px 0 108px 0;
     }
