@@ -1343,6 +1343,9 @@ svg.modal-icon-svg {
     ul.header-list.list {
         display: none;
     }
+    /*.our-team-section > .container-mobile {*/
+    /*    width: 552px;*/
+    /*}*/
     /*ul.our-team {*/
     /*    width: calc((100% - 24px) / 2);*/
     /*}*/
