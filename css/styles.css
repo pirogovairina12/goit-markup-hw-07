@@ -462,7 +462,12 @@ ul.team-list {
     padding: 120px 0 120px 0;
 }
 
-
+ul.we-doing-list > li {
+    width: calc((100% - 48px) / 3);
+}
+ul.our-team {
+    width: calc((100% - 48px) / 4);
+}
 .li-title-skill {
     margin: 0 0 8px 0;
     font-weight: 500;
@@ -1025,7 +1030,7 @@ svg.modal-icon-svg {
 
 @media screen and (min-width: 480px) {
     .container {
-        width: 480px;
+        /*width: 480px;*/
         padding-left: 15px;
         padding-right: 15px;
     }
@@ -1041,9 +1046,11 @@ svg.modal-icon-svg {
 
     .project-skill {
         display: block;
-        text-align: center;
+        /*text-align: center;*/
     }
-
+    /*h3.li-title-skill {*/
+    /*    text-align: center;*/
+    /*}*/
     .skill-icon-bg {
         display: none;
     }
@@ -1110,8 +1117,8 @@ svg.modal-icon-svg {
         font-weight: 700;
         width: 319px;
     }
-    .container.container-mobile {
-        width: 480px;
+    .container-mobile {
+        /*width: 480px;*/
     }
     button.main-btn {
         padding: 8px 16px;
@@ -1128,6 +1135,7 @@ svg.modal-icon-svg {
     }
     .footer-subscribe {
         text-align: center;
+        width: 100%;
     }
     section.portfolio {
         padding: 48px 0;
@@ -1143,9 +1151,12 @@ svg.modal-icon-svg {
 
     .project-skill {
         display: flex;
-        text-align: center;
+        /*text-align: center;*/
         flex-direction: column;
         gap: 72px;
+    }
+    h3.li-title-skill {
+        text-align: center;
     }
     .customers-item {
         width: calc((100% - 32px) / 2);
@@ -1172,7 +1183,7 @@ svg.modal-icon-svg {
     }
 
     input.footer-subscribe-input {
-        width: 396px;
+        width: 100%;
     }
     button.footer-subscribe-btn {
         margin: 16px 0 0 16px;
@@ -1220,7 +1231,7 @@ svg.modal-icon-svg {
         padding: 96px 0 128px 0;
     }
     .project-skill > li {
-        width: calc((100% - 48px) / 2);
+        width: calc((100% - 24px) / 2);
     }
     .customers {
         padding: 96px 0 96px 0;
@@ -1232,7 +1243,7 @@ svg.modal-icon-svg {
     }
 
     .customers-item {
-        width: calc((100% - 48px) / 3);
+        width: calc((100% - 32px) / 3);
         height: 88px;
     }
     .footer-container {
@@ -1313,31 +1324,26 @@ svg.modal-icon-svg {
     .header-nav-email {
         margin: 0;
     }
-    /*.our-team-section {*/
-    /*    padding: 120px 0 120px 0;*/
-    /*}*/
+    h3.li-title-skill {
+        text-align: left;
+    }
 }
 
 
-@media screen and (max-width: 767px) {
-    /*button.main-btn {*/
-    /*    padding: 12px 24px;*/
-    /*}*/
+@media screen and (max-width: 768px) {
+
     ul.header-list.list {
         display: none;
+    }
+    .hero {
+        padding: 112px 0 108px 0;
     }
     .hero-skill {
         padding: 96px 0 96px 0;
     }
-
-
-
-    /*.container.container-mobile {*/
-    /*    width: 552px;*/
-    /*}*/
-
-
-
+    h3.li-title-skill {
+        text-align: center;
+    }
     ul.header-nav.link.list {
         display: none;
     }
@@ -1647,7 +1653,9 @@ svg.modal-icon-svg {
         justify-content: space-between;
         position: relative;
     }
-
+    .hero {
+        padding: 112px 0 108px 0;
+    }
     .li-text-skill {
         font-weight: 500;
     }
@@ -1768,3 +1776,4 @@ svg.modal-icon-svg {
 .current-mobile {
     color: var(--btn-hover-color);
 }
+
