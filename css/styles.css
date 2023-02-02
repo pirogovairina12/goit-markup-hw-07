@@ -1122,7 +1122,7 @@ svg.modal-icon-svg {
     ul.our-team {
         width: calc((100% - 0px) / 1);
     }
-    .container-mobile {
+    .our-team-section >.container-mobile {
         width: 260px;
     }
     button.main-btn {
