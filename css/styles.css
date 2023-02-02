@@ -1029,18 +1029,7 @@ svg.modal-icon-svg {
 
 
 @media screen and (min-width: 480px) {
-    .container {
-        /*width: 396px;*/
-        /*padding-left: 15px;*/
-        /*padding-right: 15px;*/
-    }
-
-    /*.our-team-section > .container-mobile{*/
-    /*    width: 296px;*/
-    /*}*/
-    /*h3.li-title-skill {*/
-    /*    text-align: center;*/
-    /*}*/
+    
     .customers-item {
         width: calc((100% - 32px) / 2);
         height: 88px;
@@ -1059,17 +1048,12 @@ svg.modal-icon-svg {
 
     .project-skill {
         display: block;
-        /*text-align: center;*/
     }
-    /*h3.li-title-skill {*/
-    /*    text-align: center;*/
-    /*}*/
+
     .skill-icon-bg {
         display: none;
     }
-    /*button.main-btn {*/
-    /*    padding: 8px 16px;*/
-    /*}*/
+
     .li-title-skill {
         font-weight: 700;
         font-size: 36px;
@@ -1080,10 +1064,7 @@ svg.modal-icon-svg {
         width: calc((100% - 0px) / 1);
         margin: 0 0 72px 0;
     }
-    .customers-item {
-        /*width: calc((100% - 36px) / 2);*/
-        /*height: 88px;*/
-    }
+
     .footer-container {
         display: flex;
         flex-wrap: wrap;
@@ -1187,17 +1168,11 @@ svg.modal-icon-svg {
 
     .project-skill {
         display: block;
-        /*text-align: center;*/
-        /*flex-direction: column;*/
-        /*gap: 72px;*/
     }
     h3.li-title-skill {
         text-align: center;
     }
-    .customers-item {
-        /*width: calc((100% - 32px) / 2);*/
-        /*height: 88px;*/
-    }
+
     .footer-container {
         display: flex;
         flex-wrap: wrap;
@@ -1278,10 +1253,6 @@ svg.modal-icon-svg {
         text-align: left;
     }
 
-    .customers-item {
-        /*width: calc((100% - 32px) / 3);*/
-        /*height: 88px;*/
-    }
     .footer-container {
         display: flex;
         flex-wrap: wrap;
@@ -1360,12 +1331,6 @@ svg.modal-icon-svg {
     .header-nav-email {
         margin: 0;
     }
-    /*h3.li-title-skill {*/
-    /*    text-align: left;*/
-    /*}*/
-    ul.our-team {
-        /*width: calc((100% - 24px) / 2);*/
-    }
 }
 
 
@@ -1417,12 +1382,6 @@ svg.modal-icon-svg {
         gap: 72px;
         flex-wrap: wrap;
         justify-content: center;
-    }
-
-
-    .customers-item {
-        /*width: calc((100% - 32px) / 3);*/
-        /*height: 88px;*/
     }
 
     .menu-list {
@@ -1664,9 +1623,6 @@ svg.modal-icon-svg {
 
 @media screen and (min-width: 768px) {
 
-    /*button.main-btn {*/
-    /*    padding: 12px 24px;*/
-    /*}*/
     .modal-button {
         margin-top: 40px;
     }
@@ -1685,9 +1641,6 @@ svg.modal-icon-svg {
     section.portfolio {
         padding: 96px 0 120px 0;
     }
-    /*button.main-btn {*/
-    /*    padding: 12px 24px;*/
-    /*}*/
 }
 
 /* +++++++/HERO-DESKTOP+++++  */
