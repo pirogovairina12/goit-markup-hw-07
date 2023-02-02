@@ -1035,8 +1035,12 @@ svg.modal-icon-svg {
         padding-right: 15px;
     }
 
-    
-
+    /*.our-team-section > .container-mobile{*/
+    /*    width: 296px;*/
+    /*}*/
+    /*h3.li-title-skill {*/
+    /*    text-align: center;*/
+    /*}*/
     .customers-item {
         width: calc((100% - 32px) / 2);
         height: 88px;
