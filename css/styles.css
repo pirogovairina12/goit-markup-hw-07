@@ -1034,9 +1034,9 @@ svg.modal-icon-svg {
         padding-left: 15px;
         padding-right: 15px;
     }
-    /*ul.our-team {*/
-    /*    width: calc((100% - 0px) / 1);*/
-    /*}*/
+    ul.our-team {
+        width: calc((100% - 0px) / 1);
+    }
     section.portfolio {
         padding: 48px 0;
     }
@@ -1332,9 +1332,9 @@ svg.modal-icon-svg {
     h3.li-title-skill {
         text-align: left;
     }
-    /*ul.our-team {*/
-    /*    width: calc((100% - 24px) / 2);*/
-    /*}*/
+    ul.our-team {
+        width: calc((100% - 24px) / 2);
+    }
 }
 
 
@@ -1344,7 +1344,7 @@ svg.modal-icon-svg {
         display: none;
     }
     /*ul.our-team {*/
-    /*    width: calc((100% - 24px) / 1);*/
+    /*    width: calc((100% - 24px) / 2);*/
     /*}*/
     .hero {
         padding: 112px 0 108px 0;
