@@ -465,9 +465,9 @@ ul.team-list {
 ul.we-doing-list > li {
     width: calc((100% - 48px) / 3);
 }
-ul.our-team {
-    width: calc((100% - 48px) / 4);
-}
+/*ul.our-team {*/
+/*    width: calc((100% - 48px) / 4);*/
+/*}*/
 .li-title-skill {
     margin: 0 0 8px 0;
     font-weight: 500;
@@ -1327,6 +1327,9 @@ svg.modal-icon-svg {
     h3.li-title-skill {
         text-align: left;
     }
+    /*ul.our-team {*/
+    /*    width: calc((100% - 48px) / 2);*/
+    /*}*/
 }
 
 
@@ -1335,6 +1338,9 @@ svg.modal-icon-svg {
     ul.header-list.list {
         display: none;
     }
+    /*ul.our-team {*/
+    /*    width: calc((100% - 24px) / 1);*/
+    /*}*/
     .hero {
         padding: 112px 0 108px 0;
     }
