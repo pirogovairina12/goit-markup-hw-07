@@ -1144,7 +1144,10 @@ svg.modal-icon-svg {
         /*width: calc((100% - 0px) / 1);*/
     }
     .our-team-section >.container-mobile {
-        width: 260px;
+        width: 290px;
+    }
+    .customers > .container-mobile {
+        width: 396px;
     }
     button.main-btn {
         padding: 8px 16px;
@@ -1173,13 +1176,14 @@ svg.modal-icon-svg {
 
     .project-skill > li {
         width: calc((100% - 0px) / 1);
+        margin: 0 0 72px 0;
     }
 
     .project-skill {
-        display: flex;
+        display: block;
         /*text-align: center;*/
-        flex-direction: column;
-        gap: 72px;
+        /*flex-direction: column;*/
+        /*gap: 72px;*/
     }
     h3.li-title-skill {
         text-align: center;
