@@ -423,7 +423,7 @@ ul.portfolio-list.list {
     display: flex;
     flex-wrap: wrap;
     gap: 48px 24px;
-    justify-content: flex-start;
+    /*justify-content: flex-start;*/
 }
 
 nav.header-navigation {
@@ -1029,7 +1029,9 @@ svg.modal-icon-svg {
 
 
 @media screen and (min-width: 480px) {
-
+    .portfolio-item {
+        max-width: 480px;
+    }
     .customers-item {
         width: calc((100% - 32px) / 2);
         height: 88px;
@@ -1122,6 +1124,9 @@ svg.modal-icon-svg {
         max-width: 480px;
         padding-left: 16px;
         padding-right: 16px;
+    }
+    .portfolio-item {
+       max-width: 480px;
     }
 
     h1.header-title {
@@ -1265,7 +1270,9 @@ svg.modal-icon-svg {
         width: 768px;
         padding: 0 16px;
     }
-
+    ul.portfolio-list.list {
+        justify-content: flex-start;
+    }
     .container-mobile {
         width: 582px;
         padding: 0 15px;
