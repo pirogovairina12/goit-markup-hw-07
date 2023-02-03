@@ -1395,9 +1395,9 @@ svg.modal-icon-svg {
         display: none;
     }
 
-    .our-team-section > .container-mobile {
-        max-width: 290px;
-    }
+    /*.our-team-section > .container-mobile {*/
+    /*    max-width: 290px;*/
+    /*}*/
 
     .hero {
         padding: 112px 0 108px 0;
