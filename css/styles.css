@@ -1396,7 +1396,7 @@ svg.modal-icon-svg {
     }
 
     .our-team-section > .container-mobile {
-        /*max-width: 768px;*/
+        max-width: 290px;
     }
 
     .hero {
