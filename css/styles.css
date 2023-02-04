@@ -1354,6 +1354,8 @@ svg.modal-icon-svg {
 }
 
 
+
+
 @media screen and (min-width: 1200px) {
     .container {
         width: 1200px;
@@ -1411,7 +1413,7 @@ svg.modal-icon-svg {
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
 
     ul.header-list.list {
         display: none;
@@ -1914,3 +1916,8 @@ ul.mobile-header-list > li:nth-last-child(1) {
     margin: 0;
 }
 
+/*@media screen and (max-width: 767px) {*/
+/*    ul.header-list.list {*/
+/*        display: none;*/
+/*    }*/
+/*}*/
